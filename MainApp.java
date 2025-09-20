@@ -30,13 +30,12 @@ public class MainApp {
                     System.out.print("Tipe (1=Coupe, 2=Convertible): ");
                     int tipe = Integer.parseInt(in.nextLine());
 
-                    // input field umum (punya superclass)
                     System.out.print("Merk  : ");  String merk = in.nextLine();
                     System.out.print("Model : ");  String model = in.nextLine();
                     System.out.print("Tahun : ");  int tahun = Integer.parseInt(in.nextLine());
                     System.out.print("Harga : ");  String harga = in.nextLine();
 
-                    // buat objek sesuai tipe yang dipilih
+                    
                     mobilsport m;
                     if (tipe == 1) {
                         System.out.print("Jumlah Pintu: ");
@@ -83,3 +82,4 @@ public class MainApp {
         } while (pilih != 5);
     }
 }
+
