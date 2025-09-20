@@ -7,9 +7,8 @@ package model;
 public class mobilsportconvertible extends mobilsport {
     private boolean atapTerbuka;
 
-    // === Constructor lengkap sesuai pemanggilan di MainApp ===
     public mobilsportconvertible(String merk, String model, int tahun, String harga, boolean atapTerbuka) {
-        super(merk, model, tahun, harga); // panggil constructor superclass (mobilsport)
+        super(merk, model, tahun, harga); 
         this.atapTerbuka = atapTerbuka;
     }
 
@@ -18,4 +17,5 @@ public class mobilsportconvertible extends mobilsport {
         return "[Convertible] " + super.info() + " | Atap Terbuka: " + (atapTerbuka ? "Ya" : "Tidak");
     }
 }
+
 
