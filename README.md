@@ -65,13 +65,31 @@ Saat memilih menu ini, pengguna diminta untuk menginput informasi mobil seperti 
 
 Saat memilih menu ini, program akan menampilkan semua data mobil yang tersimpan beserta detailnya, termasuk merk, model, tahun, harga, serta atribut khusus sesuai tipe mobil (jumlah pintu untuk Coupe atau status atap untuk Convertible).
 
+## 3. Ubah Data Mobil
 
+<img width="1032" height="358" alt="image" src="https://github.com/user-attachments/assets/d4e3498c-1d11-4f4d-8506-99c4dd6f67c9" />
 
+Pada pilihan ini, pengguna dapat memperbarui data mobil yang sudah ada. Program akan meminta nomor urut data yang ingin diganti, lalu menyuruh pengguna memasukkan input data baru dan menyimpannya sebagai pengganti data lama. Disini saya mengganti data nomor 1 yaitu merubah tipe mobil nya menjadi Convertible.
 
+<img width="759" height="65" alt="image" src="https://github.com/user-attachments/assets/2b4a68d6-b5b7-4043-a51e-70a7183f433b" />
 
+Bisa dilihat pada data no 1 yang awalanya mobil BMW M2 Competition itu bertipe Coupe sekarang menjadi Convertible
 
+## 4. Hapus Data Mobil
 
+<img width="859" height="238" alt="image" src="https://github.com/user-attachments/assets/84fc829a-ae0b-416f-aaca-731d79b53737" />
 
+Pada opsi ini memungkinkan pengguna menghilangkan data mobil tertentu dari daftar data. Setelah memilih nomor urut mobil, data tersebut akan dihapus dari ArrayList. Disini saya menghapus data pada nomor 1.
+
+<img width="790" height="176" alt="image" src="https://github.com/user-attachments/assets/85012f0e-7620-436c-93e3-3e9eb4ea09dd" />
+
+Maka jika kita cek data mobil pada nomor 1 sudah tidak dan hanya tersisa data mobil yang belum dihapus.
+
+## 5. Keluar
+
+<img width="888" height="297" alt="image" src="https://github.com/user-attachments/assets/648cdd90-f220-441b-a625-1a731aecc9b3" />
+
+Jika memilih opsi maka program nya akan berhenti berjalan.
 
 
 
