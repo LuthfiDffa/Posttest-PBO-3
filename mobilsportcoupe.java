@@ -8,8 +8,8 @@ package model;
 public class mobilsportcoupe extends mobilsport{
     private int jumlahpintu;
 
-    public mobilsportcoupe(String merk, String model, int tahun, String harga, int jumlahPintu) { // <- String
-        super(merk, model, tahun, harga);  // <- String
+    public mobilsportcoupe(String merk, String model, int tahun, String harga, int jumlahPintu) { 
+        super(merk, model, tahun, harga); 
         this.jumlahpintu = jumlahPintu;
     }
           
@@ -19,4 +19,5 @@ public class mobilsportcoupe extends mobilsport{
 
     }
 }
+
 
